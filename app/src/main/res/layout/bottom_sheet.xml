@@ -30,7 +30,7 @@
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:text="Peak Height" />
+                    android:text="Bottom Sheet Peak" />
             </LinearLayout>
 
             <!--Remaining content-->
@@ -46,7 +46,9 @@
                     android:gravity="center"
                     style="@style/TextAppearance.AppCompat.Headline"
                     android:layout_gravity="center"
-                    android:text="Remaining Content"
+                    android:maxLines="2"
+                    android:textAlignment="center"
+                    android:text="Bottom Sheet\nRemaining Content"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
